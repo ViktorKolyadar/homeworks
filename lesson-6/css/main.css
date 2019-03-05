@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+
+/* Style for "Карточка товара" */
+.card-product {
+width: 1010px;
+height: 503px;
+border: 1px solid #d7d7d7;
+background-color: #ffffff;
+padding: 0;
+margin: 86px 95px;
+display: block;
+}
+
+/* Style for "Изображение товара" */
+.product-image {
+	box-sizing: content-box;
+	width: 376px;
+	height: 375px;
+	padding: 48px 64px;
+	display: inline-block;
+	
+}
+
+/* Style for "Описание товара" */
+.product-description {
+	width: 393px;
+	height: 503px;
+	padding: 30px 15px 15px ;
+	/*margin: 0;*/
+	display: inline-block;
+	position: fixed;
+}
+	
+	/* Style for "Название товара" */
+.product-name {
+	width: 350px;
+	height: 67px;
+	color: #2f2f2f;
+	font-family: "Arial MT", "Arial";
+	font-weight: 700;
+	font-size: 23px;
+	font-weight: 700;
+	position: relative;
+	display: block;
+	padding: 30px 0px 15px 0px;
+	
+
+}
+
+/* Style for "Подробное описание товара" */
+.detailed-description {
+	width: 393px;
+	height: 80px;
+	color: #2f2f2f;
+	font-family: "Arial MT", "Arial";
+	font-weight: 400;
+	font-size: 15px;
+	padding: 15px 0px 75px 0px;
+}
+
+/* Style for "Цена" */
+.price {
+	width: 35px;
+	height: 14px;
+	color: #2f2f2f;
+	font-family: "Arial MT", "Arial";
+	font-weight: 400;
+	font-size: 15px;
+	padding: 40px 0px 25px 0px;
+
+}
+
+/* Style for "Цена товара" */
+.product-price {
+	width: 103px;
+	height: 28px;
+	color: #2f2f2f;
+	font-family: "Arial MT", "Arial";
+	font-size: 30px;
+	font-weight: 400;
+	padding: 15px 0px 80px 0px;
+}
+
+/* Style for "Кнопка В корзину" */
+.button-add-to-cart {
+	width: 252px;
+	height: 50px;
+	background-color: #ec744a;
+	color: #ffffff;
+	font-family: "Arial MT", "Arial";
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	padding: 16px 39px;
+}
+
+
