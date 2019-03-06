@@ -1,0 +1,19 @@
+@font-face{
+
+font-family: 'ARIALMT';
+
+src: url('../fonts/ARIALMT.eot');
+
+src: url('../fonts/ARIALMT.eot?iefix') format('eot'),
+
+url('../fonts/ARIALMT.woff') format('woff'),
+
+url('../fonts/ARIALMT.ttf') format('truetype'),
+
+url('../fonts/ARIALMT.svg#ARIALMT') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
