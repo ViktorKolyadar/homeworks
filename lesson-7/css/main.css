@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+.instruments {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.head-line {
+	display: flex;
+	justify-content: center;
+	margin: 100px auto;
+	color: #000000;
+	font-family: "Proxima Nova", "arial";
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.content-line {
+ 	display: flex;
+	justify-content: flex-start;
+	margin: 25px auto;
+}
+
+.content-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 15px;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	padding: 0px 26px;
+	width: 263px;
+	height: 210px;
+	margin: 15px auto;
+}
+
+.image-other {
+	padding: 0px 0px;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Proxima Nova", "arial";
+	font-size: 18px;
+	font-weight: 400;
+	margin: 15px auto 10px;
+}
+
+.price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 15px auto 10px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 55px;
+	border: 1px solid #23bac1;
+	color: #23bac1;
+	font-family: "Proxima Nova", "arial";
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 15px 32px 10px 31px;
+}
