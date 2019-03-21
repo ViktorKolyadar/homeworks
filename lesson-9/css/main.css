@@ -1,15 +1,12 @@
-.headline {
-
-}
 h1 {
 	text-align: center;
 	color: #333333;
 	font-family: Tahoma;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 70px;
-  margin-bottom: 45px;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 70px;
+	margin-bottom: 45px;
 }
 .pict {
 	display: flex;
